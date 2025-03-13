@@ -4,6 +4,6 @@ const macContacts = require("../lib");
 
 (async () => {
     await macContacts((data) => {
-        console.log(data)
-    })
+        console.log(data);
+    });
 })();
